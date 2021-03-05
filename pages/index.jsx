@@ -10,7 +10,6 @@ export async function getStaticProps() {
     props: {
       ...allImageInfo,
     },
-    revalidate: 1,
   };
 }
 export default function Home({ allImageData, imageDirectory }) {
