@@ -5,10 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "api": "node ./postman/newman.js"
   },
   "dependencies": {
+    "exiftool-vendored": "^14.0.0",
     "image-size": "^0.9.4",
+    "newman": "^5.2.2",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1"
